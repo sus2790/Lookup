@@ -1,0 +1,258 @@
+@media (max-width: 1440px) {
+    .Profile_Container {
+        padding: 5% 0;
+    }
+    .Profile_Profile {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1440 / 1072;
+    }
+}
+.Profile_1 .Banner {
+    background-position: center;
+    background-size: cover;
+}
+.Profile_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #7289da 50%, #ffffff 50%);
+    overflow: hidden;
+}
+.Profile_Profile {
+    position: relative;
+    width: 90vw;
+    max-width: 1440px;
+    height: 90vh;
+    max-height: 1072px;
+    background-color: #ffffff;
+    border-radius: 75px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    transform: scale(0.33) translateX(-45vw);
+    transform-origin: center;
+}
+.Profile_Profile .Profile_1,
+.Profile_Profile .Avatar,
+.Profile_Profile .Name,
+.Profile_Profile .Badge,
+.Profile_Profile .Date {
+    position: absolute;
+}
+.Profile_Profile .Profile_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 1072.2239685058594px;
+}
+.Profile_Profile .Profile_1 .Body {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 1072.2239685058594px;
+    background: rgba(17, 18, 20, 1);
+    border-radius: 75px;
+}
+.Profile_Profile .Profile_1 .Banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    padding-top: 32.5%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 75px 75px 0 0;
+}
+
+.Profile_Profile .Avatar {
+    position: absolute;
+    left: 81px;
+    top: 240px;
+    width: 420px;
+    height: 420px;
+}
+.Profile_Profile .Avatar .Mask {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 420px;
+    height: 420px;
+    background: rgba(17, 18, 20, 1);
+    border-radius: 50%;
+}
+.Profile_Profile .Avatar .Image {
+    position: absolute;
+    left: 27px;
+    top: 27px;
+    width: 366px;
+    height: 366px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    background-size: cover;
+}
+.Profile_Profile .Name {
+    position: absolute;
+    left: 81px;
+    top: 660px;
+    width: 300px;
+    height: 165px;
+}
+.Profile_Profile .Name .name {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: max-content;
+    height: 111px;
+    color: rgba(242, 243, 245, 1);
+    font-family: Inter;
+    font-size: 92.22600173950195px;
+    font-weight: 800;
+    line-height: 111.61442184448242px;
+}
+.Profile_Profile .Name .username {
+    position: absolute;
+    left: 0px;
+    top: 111px;
+    width: max-content;
+    height: 54px;
+    color: rgba(242, 243, 245, 1);
+    font-family: Inter;
+    font-size: 43.68600082397461px;
+    font-weight: 500;
+    line-height: 52.86998748779297px;
+}
+.Profile_Profile .Badge {
+    position: absolute;
+    left: 81px;
+    top: 846px;
+    height: 78px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.Profile_Profile .Badge .Background {
+    width: 94px;
+    height: 94px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        linear-gradient(
+            0deg,
+            rgba(165, 166, 168, 0.3),
+            rgba(165, 166, 168, 0.3)
+        );
+    border-radius: 18px;
+    border: 0px solid rgba(165, 166, 168, 1);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Profile_Profile .Badge .Icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Profile_Profile .Badge .Icon img {
+    width: 100%;
+    height: 100%;
+}
+.Profile_Profile .Date {
+    position: absolute;
+    left: 942px;
+    top: 516px;
+    width: 402px;
+    height: 129px;
+}
+.Profile_Profile .Date .Createdat {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 402px;
+    height: 129px;
+}
+.Profile_Profile .Date .Createdat .Time {
+    position: absolute;
+    left: 51px;
+    top: 63px;
+    width: 297px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(219, 222, 225, 1);
+    font-family: Inter;
+    font-size: 53.39400100708008px;
+    font-weight: 500;
+    line-height: 64.61887550354004px;
+}
+.Profile_Profile .Date .Createdat .Label {
+    position: absolute;
+    left: -9px;
+    top: -3px;
+    width: 416px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgba(181, 186, 193, 1);
+    font-family: Inter;
+    font-size: 53.39400100708008px;
+    font-weight: 600;
+    line-height: 64.61887550354004px;
+}
+.Search_Search {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5) translateX(60vw);
+    transform-origin: center;
+    flex-direction: column;
+}
+.Search_Search {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.5) translateX(60vw);
+    transform-origin: center;
+    flex-direction: column;
+}
+.InputBox {
+    font-family: Inter;
+    width: 50%;
+    background: rgba(30, 31, 34, 1);
+    border-radius: 32px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.InputLabel {
+    width: 100%;
+    padding: 10px;
+    color: rgba(155, 156, 158, 0.9);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.Search_Label {
+    color: #7289da;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
